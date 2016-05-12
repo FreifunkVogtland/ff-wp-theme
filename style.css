@@ -75,6 +75,10 @@ div div.title a:hover
   text-decoration:none;
  }
  
+.site-title h3 {
+    white-space: nowrap;
+}	
+ 
 .widecolumn {
 	line-height: 1.6em;
 	}
