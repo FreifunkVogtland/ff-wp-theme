@@ -5,6 +5,7 @@
  */
 ?>
 	<div id="sidebar" role="complementary">
+		<label for="nav-trigger" id="nav-trigger-label-sidebar"></label>
 		<ul>
 		<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 		<div id="secondary" class="widget-area" role="complementary">

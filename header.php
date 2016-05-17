@@ -34,11 +34,11 @@ if ( empty($withcomments) && !is_single() ) {
 </head>
 <body <?php body_class(); ?>>
 <div id="page">
-
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
 
 <div id="header" role="banner">
 	<div class="header-back">
-		<div class="title"><a href="<?php bloginfo('url'); ?>"><?php  bloginfo('title'); ?></a></div>	
+		<div class="title"><label for="nav-trigger"></label><a href="<?php bloginfo('url'); ?>"><?php  bloginfo('title'); ?></a></div>	
 		<div class="description"><?php  bloginfo('description'); ?></div>
 	</div>
 </div>

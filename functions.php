@@ -14,11 +14,7 @@ add_theme_support( 'automatic-feed-links' );
 
 function the_breadcrumb() {
 	if (!is_home()) {
-		echo '<div class="ffbc"><a href="';
-		echo home_url();
-		echo '">';
-		bloginfo('name');
-		echo "</a> | ";
+		echo '<div class="ffbc">';
 		if (is_category() || is_single()) {
 			// echo " Blog | ";
 			the_category(', ');
