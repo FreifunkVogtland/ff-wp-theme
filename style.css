@@ -700,9 +700,11 @@ div.aligncenter {
         left: 0;
         z-index: 0;
         padding: 20px 10px 10px 10px;
+        font-size: 1.5em;
         /* float:right; */
         
         background: #d5d6d7;
+        overflow: auto;
     }
     #sidebar ul {
         padding: 0px 0px 0px 10px;
@@ -723,7 +725,7 @@ div.aligncenter {
         border-right: 1px solid #959596;
     }
     #sidebar ul ul li {
-        font-size: 2em;
+        font-size: 1em;
         margin-left: 1em;
     }
     #sidebar h2 {
